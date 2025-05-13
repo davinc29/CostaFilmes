@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    background-color: rgb(24, 24, 24);
+    font-family: 'Montserrat';
+}
+
+#cabeçalho{
+    background-color: black;
+    position: static;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    text-align: center;
+    z-index: 1;
+    padding-top: 5px;
+}
+
+#nav{
+    background-color: transparent;
+    height: 105px;
+    display: flex;
+}
+
+#logo-link{
+    width: 50%;
+    display: flex;
+}
+
+#logo{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 5px;
+    width: 240px;
+    height: 72px;
+}
+
+#divLink{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+#Links{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.paragrafo{
+    margin-left: 30px;
+}
+
+#resenha{
+    display: flex;
+    height: auto;
+}
+
+#conteudo{
+    width: 70%;
+    align-items: center;
+}
+
+#texto{
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: justify;
+    color: #ffd2d2;
+    font-size: 15px;
+}
+
+#aside{
+    width: 30%;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+
+#imagem{
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 400px;
+    height: 550px;
+}
+
+#rodape{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: white;
+    bottom: auto;
+    text-align: center;
+}
